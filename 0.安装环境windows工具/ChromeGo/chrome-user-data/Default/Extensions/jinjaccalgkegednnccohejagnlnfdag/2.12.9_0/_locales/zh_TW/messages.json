@@ -1,0 +1,794 @@
+{
+   "buttonCancel": {
+      "description": "Cancel button on dialog.",
+      "message": "取消"
+   },
+   "buttonClose": {
+      "description": "Button to close window.",
+      "message": "關閉"
+   },
+   "buttonConfirmInstallation": {
+      "description": "Button to confirm installation of a script.",
+      "message": "確認安裝"
+   },
+   "buttonDisable": {
+      "description": "Button to disable a script.",
+      "message": "停用"
+   },
+   "buttonEdit": {
+      "description": "Button to edit a script.",
+      "message": "編輯"
+   },
+   "buttonEditClickHint": {
+      "description": "Tooltip for the Edit button in popup.",
+      "message": "You can also Right-click, Ctrl-click, Wheel-click on the script name."
+   },
+   "buttonEmptyRecycleBin": {
+      "description": "Button to empty the recycle bin.",
+      "message": "Empty recycle bin now!"
+   },
+   "buttonEnable": {
+      "description": "Button to enable a script.",
+      "message": "啟用"
+   },
+   "buttonExportData": {
+      "description": "Button to open the data export dialog.",
+      "message": "匯出為zip檔"
+   },
+   "buttonFilter": {
+      "description": "Button to show filters menu.",
+      "message": "Filters"
+   },
+   "buttonHome": {
+      "description": "Button to open homepage.",
+      "message": "主頁"
+   },
+   "buttonImportData": {
+      "description": "Button to choose a file for data import.",
+      "message": "從zip檔匯入"
+   },
+   "buttonInstallFromURL": {
+      "description": "Button to ask for URL of a user script.",
+      "message": "通過網址安裝"
+   },
+   "buttonInstallOptions": {
+      "description": "Button to show options of installation confirm page.",
+      "message": "選項"
+   },
+   "buttonNew": {
+      "description": "Button to create a new script.",
+      "message": "新建"
+   },
+   "buttonOK": {
+      "description": "OK button on dialog.",
+      "message": "確定"
+   },
+   "buttonRecycleBin": {
+      "description": "Button to list scripts in recycle bin.",
+      "message": "Recycle Bin"
+   },
+   "buttonRemove": {
+      "description": "Button to remove a script.",
+      "message": "移除"
+   },
+   "buttonReplace": {
+      "description": "Button to replace the current match.",
+      "message": "取代"
+   },
+   "buttonReplaceAll": {
+      "description": "Button to replace all matches.",
+      "message": "全部"
+   },
+   "buttonReset": {
+      "description": "Button to reset to default values.",
+      "message": "Reset"
+   },
+   "buttonRestore": {
+      "description": "Button to restore a removed script.",
+      "message": "Restore"
+   },
+   "buttonSave": {
+      "description": "Button to save modifications of a script.",
+      "message": "儲存"
+   },
+   "buttonSaveClose": {
+      "description": "Button to save modifications of a script and then close the editing page.",
+      "message": "儲存並關閉"
+   },
+   "buttonShowEditorState": {
+      "description": "Button to show the list of currently used CodeMirror options.",
+      "message": "Show editor state"
+   },
+   "buttonSupport": {
+      "description": "Button to open support page.",
+      "message": "支援頁面"
+   },
+   "buttonUpdate": {
+      "description": "Check a script for updates.",
+      "message": "檢查更新"
+   },
+   "buttonUpdateAll": {
+      "description": "Check all scripts for updates.",
+      "message": "全部更新"
+   },
+   "buttonVacuum": {
+      "description": "Button to vacuum extension data.",
+      "message": "整理數據庫"
+   },
+   "buttonVacuumed": {
+      "description": "Message shown when data is vacuumed.",
+      "message": "數據已整理"
+   },
+   "buttonVacuuming": {
+      "description": "Message shown when data vacuum is in progress.",
+      "message": "正在整理…"
+   },
+   "confirmNotSaved": {
+      "description": "Confirm message shown when there are unsaved script modifications.",
+      "message": "修改尚未儲存！\n點選確定放棄修改或點選取消停留此頁面。"
+   },
+   "descBlacklist": {
+      "description": "HTML Description for the global blacklist.",
+      "message": "符合此列表的URL將不會被注入腳本。"
+   },
+   "descCustomCSS": {
+      "description": "Description of custom CSS section.",
+      "message": "這裡可以為管理頁面和腳本安裝頁面設定自訂CSS。如果你不確定它的意思，請不要修改。"
+   },
+   "descEditorOptions": {
+      "description": "Description of editor options JSON section.",
+      "message": "Custom options for CodeMirror and addons in JSON object like \u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> however note that some of them may not work in Violentmonkey. See \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">full list\u003C/a>. To use a custom CodeMirror theme, specify its file name like \u003Ccode>\"theme\": \"3024-day\"\u003C/code> here and paste the \u003Ca href=\"https://github.com/codemirror/CodeMirror/tree/master/theme\" target=\"_blank\" rel=\"noopener noreferrer\">actual theme's CSS\u003C/a> in \"Custom Style\" input below."
+   },
+   "editHelpDocumention": {
+      "description": "Label in the editor help tab for the documentation link.",
+      "message": "Documentation on userscript metadata block and \u003Ccode>GM\u003C/code> API:"
+   },
+   "editHelpKeyboard": {
+      "description": "Label in the editor help tab for the keyboard shortcuts.",
+      "message": "Keyboard shortcuts:"
+   },
+   "editHowToHint": {
+      "description": "The text of the how-to link in the editor header.",
+      "message": "Use another editor?"
+   },
+   "editLabelMeta": {
+      "description": "Metadata section in settings tab of script editor.",
+      "message": "自訂元數據"
+   },
+   "editLabelSettings": {
+      "description": "Settings section in settings tab of script editor.",
+      "message": "腳本設定"
+   },
+   "editLongLine": {
+      "description": "Shown in the editor in lines that were cut due to being too long",
+      "message": "Line is too long"
+   },
+   "editLongLineTooltip": {
+      "description": "Tooltip shown in the editor in lines that were cut due to being too long",
+      "message": "This line is too long so its text is collapsed to avoid delays when editing.\nYou can adjust the limit in advanced settings, for example:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "description": "Label of code tab in script editor.",
+      "message": "程式碼"
+   },
+   "editNavSettings": {
+      "description": "Label of settings tab in script editor.",
+      "message": "設定"
+   },
+   "editNavValues": {
+      "description": "Label of values tab in script editor.",
+      "message": "Values"
+   },
+   "editValueAll": {
+      "description": "Button to show/edit the entire script value storage.",
+      "message": "All"
+   },
+   "editValueAllHint": {
+      "description": "Tooltip for the 'all' button.",
+      "message": "Show/edit the entire script value storage"
+   },
+   "editValueCancel": {
+      "description": "Button to cancel modification of a script value.",
+      "message": "Cancel"
+   },
+   "editValueSave": {
+      "description": "Button to save modification of a script value.",
+      "message": "Save"
+   },
+   "extDescription": {
+      "description": "Description for this extension, will be displayed in web store",
+      "message": "為瀏覽器提供使用者腳本支援。"
+   },
+   "extName": {
+      "description": "Name of this extension.",
+      "message": "暴力猴"
+   },
+   "failureReasonBlacklisted": {
+      "description": "Shown for blacklisted URLs (in the extension icon tooltip, in the popup)",
+      "message": "Blacklisted in Violentmonkey's settings"
+   },
+   "failureReasonNoninjectable": {
+      "description": "Shown for URLs that cannot be processed (same places as failureBlacklistedUrl)",
+      "message": "Violentmonkey cannot run userscripts in this page\n(common examples: browser UI or an extension)"
+   },
+   "filterAlphabeticalOrder": {
+      "description": "Label for option to sort scripts in alphabetical order.",
+      "message": "alphabetical order"
+   },
+   "filterExecutionOrder": {
+      "description": "Label for option to sort scripts in execution order.",
+      "message": "execution order"
+   },
+   "filterLastUpdateOrder": {
+      "description": "Label for option to sort scripts by last update time.",
+      "message": "last update time"
+   },
+   "filterScopeAll": {
+      "description": "Option in dashboard's search scope filter.",
+      "message": "All"
+   },
+   "filterScopeCode": {
+      "description": "Option in dashboard's search scope filter.",
+      "message": "Code"
+   },
+   "filterScopeName": {
+      "description": "Option in dashboard's search scope filter.",
+      "message": "Name"
+   },
+   "genericError": {
+      "description": "Label for generic error.",
+      "message": "Error"
+   },
+   "genericOff": {
+      "description": "To indicate something is turned off or disabled, similar to \"no\".",
+      "message": "off"
+   },
+   "genericOn": {
+      "description": "To indicate something is turned on or enabled, similar to \"yes\".",
+      "message": "on"
+   },
+   "genericUseGlobal": {
+      "description": "To indicate some per-script option will use its analog in global settings.",
+      "message": "use global setting"
+   },
+   "headerRecycleBin": {
+      "description": "Text shown in the header when scripts in recycle bin are listed.",
+      "message": "Recycle Bin"
+   },
+   "hintInputURL": {
+      "description": "Hint for a prompt box to input URL of a user script.",
+      "message": "請輸入網址："
+   },
+   "hintRecycleBin": {
+      "description": "Hint for recycle bin.",
+      "message": "Scripts removed are listed here and will be kept for 7 days."
+   },
+   "hintUseDownloadURL": {
+      "description": "Shown as a place holder for @updateURL when it is not assigned",
+      "message": "使用@downloadURL"
+   },
+   "hintVacuum": {
+      "description": "Hint for vacuuming data.",
+      "message": "丟棄多餘的數據，並嘗試重新獲取缺失的資源。"
+   },
+   "installFrom": {
+      "description": "Label for button to install script from a userscript site.",
+      "message": "從$1安裝"
+   },
+   "installOptionClose": {
+      "description": "Option to close confirm window after installation.",
+      "message": "安裝完成後關閉"
+   },
+   "installOptionTrack": {
+      "description": "Option to track the loading local file before window is closed.",
+      "message": "本視窗關閉前跟蹤開啟的本地檔案同步更新"
+   },
+   "installOptionTrackTooltip": {
+      "description": "Tooltip in Firefox 68+ for the option to track the loading local file before window is closed.",
+      "message": "The source file tab should be kept open in Firefox 68 and newer."
+   },
+   "labelAbout": {
+      "description": "Label shown on top of the about page.",
+      "message": "關於暴力猴"
+   },
+   "labelAdvanced": {
+      "description": "Label for button to show advanced settings.",
+      "message": "Advanced"
+   },
+   "labelAllowUpdate": {
+      "description": "Option to allow checking updates for a script.",
+      "message": "允許更新"
+   },
+   "labelAuthor": {
+      "description": "Label of author shown in the details of a script.",
+      "message": "作者："
+   },
+   "labelAutoReloadCurrentTab": {
+      "description": "Option to reload current tab after a script is switched on or off from menu.",
+      "message": "從選單開啟或關閉腳本後自動重新整理當前頁面"
+   },
+   "labelAutoUpdate": {
+      "description": "Option to allow automatically checking scripts for updates",
+      "message": "Check for script updates every $1 day(s), use 0 to disable"
+   },
+   "labelBadge": {
+      "description": "Label for option to show number on badge.",
+      "message": "Display on badge: "
+   },
+   "labelBadgeNone": {
+      "description": "Option to display nothing on badge.",
+      "message": "none"
+   },
+   "labelBadgeTotal": {
+      "description": "Option to display total number of running scripts on badge.",
+      "message": "number of running scripts"
+   },
+   "labelBadgeUnique": {
+      "description": "Option to display number of unique running scripts on badge.",
+      "message": "number of unique running scripts"
+   },
+   "labelBlacklist": {
+      "description": "Label for global blacklist settings in security section.",
+      "message": "黑名單"
+   },
+   "labelContributors": {
+      "description": "Label for link to contributors.",
+      "message": "Contributors"
+   },
+   "labelCurrentLang": {
+      "description": "Label of current language.",
+      "message": "當前語言："
+   },
+   "labelCustomCSS": {
+      "description": "Label for custom CSS section.",
+      "message": "自訂樣式"
+   },
+   "labelDataExport": {
+      "description": "Section title of data export.",
+      "message": "數據匯出"
+   },
+   "labelDataImport": {
+      "description": "Section title of data import.",
+      "message": "數據匯入"
+   },
+   "labelDonate": {
+      "description": "Label of link to donate page.",
+      "message": "捐助"
+   },
+   "labelDownloadURL": {
+      "description": "Label of script @downloadURL in custom meta data.",
+      "message": "下載更新網址："
+   },
+   "labelEditValue": {
+      "description": "Label shown in the panel to edit a script value.",
+      "message": "Editing script value"
+   },
+   "labelEditValueAll": {
+      "description": "Label shown in the panel to edit the entire script value storage.",
+      "message": "Editing script storage"
+   },
+   "labelEditor": {
+      "description": "Label for Editor settings",
+      "message": "Editor"
+   },
+   "labelExclude": {
+      "description": "Label of @exclude rules.",
+      "message": "@exclude 規則"
+   },
+   "labelExcludeMatch": {
+      "description": "Label of @exclude-match rules.",
+      "message": "@exclude-match 規則"
+   },
+   "labelExportScriptData": {
+      "description": "Option to export script data along with scripts.",
+      "message": "匯出腳本數據"
+   },
+   "labelExposeStatus": {
+      "description": "Option in advanced settings.",
+      "message": "Expose installed version on userscript catalog sites: $1"
+   },
+   "labelFeedback": {
+      "description": "Label of link to feedback page.",
+      "message": "反饋"
+   },
+   "labelFilterSort": {
+      "description": "Label for sort filter.",
+      "message": "Sort by $1"
+   },
+   "labelGeneral": {
+      "description": "Label for general settings.",
+      "message": "通用"
+   },
+   "labelHelpTranslate": {
+      "description": "Label for link to localization guide in about tab",
+      "message": "Help with translation"
+   },
+   "labelHomepage": {
+      "description": "Label for home page in about tab.",
+      "message": "Homepage"
+   },
+   "labelHomepageURL": {
+      "description": "Label of script @homepageURL in custom meta data.",
+      "message": "主頁網址："
+   },
+   "labelImportSettings": {
+      "description": "Label for option to import settings from zip file.",
+      "message": "匯入設定"
+   },
+   "labelInclude": {
+      "description": "Label of @include rules.",
+      "message": "@include 規則"
+   },
+   "labelInjectionMode": {
+      "description": "Label for default option to inject scripts.",
+      "message": "Default injection mode: "
+   },
+   "labelInstall": {
+      "description": "Shown in the title of the confirm page while trying to install a script.",
+      "message": "安裝腳本"
+   },
+   "labelKeepOriginal": {
+      "description": "Option to keep the original match or ignore rules.",
+      "message": "保留原有規則"
+   },
+   "labelLastUpdatedAt": {
+      "description": "Label shown on last updated time.",
+      "message": "Last updated at $1"
+   },
+   "labelLineNumber": {
+      "description": "Label for line number jumper.",
+      "message": "行號："
+   },
+   "labelMatch": {
+      "description": "Label of @match rules.",
+      "message": "@match 規則"
+   },
+   "labelName": {
+      "description": "Label of script name.",
+      "message": "名字："
+   },
+   "labelNoName": {
+      "description": "Text as the name of a script when no @name is assigned.",
+      "message": "名字為空"
+   },
+   "labelNoSearchScripts": {
+      "description": "Message shown when no script is found in search results.",
+      "message": "沒有找到腳本！"
+   },
+   "labelNotifyThisUpdated": {
+      "description": "A per-script option in editor to enable notification when this script is updated. The text follows \"Allow update\" checkbox option so it's like a continuation of the phrase.",
+      "message": ", then notify:"
+   },
+   "labelNotifyUpdates": {
+      "description": "Option to show notification when script is updated.",
+      "message": "腳本更新時通知"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "description": "Option to prioritize global notification option over script's setting.",
+      "message": "ignore per-script notification (\"settings\" tab in editor)"
+   },
+   "labelPopupSort": {
+      "description": "Label in the VM settings tab for script list sort order in popup",
+      "message": "Sort scripts in popup by $1"
+   },
+   "labelPrivacyPolicy": {
+      "description": "Label of link to privacy policy",
+      "message": "Privacy Policy"
+   },
+   "labelRelated": {
+      "description": "Label of related links.",
+      "message": "相關連結："
+   },
+   "labelRemovedAt": {
+      "description": "Label for the time when the script is removed.",
+      "message": "Removed at $1"
+   },
+   "labelReplace": {
+      "description": "Label for replace input in search box.",
+      "message": "取代："
+   },
+   "labelRunAt": {
+      "description": "Label of script @run-at properties in custom meta data.",
+      "message": "執行時機："
+   },
+   "labelRunAtDefault": {
+      "description": "Shown when custom @run-at is not assigned.",
+      "message": "（預設）"
+   },
+   "labelScriptTemplate": {
+      "description": "Label for custom script template.",
+      "message": "Custom Script Template"
+   },
+   "labelSearch": {
+      "description": "Label for search input in search box.",
+      "message": "尋找："
+   },
+   "labelSearchScript": {
+      "description": "Placeholder for script search box.",
+      "message": "搜尋腳本…"
+   },
+   "labelSettings": {
+      "description": "Label shown on the top of settings page",
+      "message": "設定"
+   },
+   "labelSync": {
+      "description": "Label for sync options.",
+      "message": "同步"
+   },
+   "labelSyncAnonymous": {
+      "description": "Label for using anonymous account.",
+      "message": "Use anonymous account"
+   },
+   "labelSyncAuthorize": {
+      "description": "Label for button to authorize a service.",
+      "message": "授權"
+   },
+   "labelSyncAuthorizing": {
+      "description": "Label for button when authorization is in progress.",
+      "message": "授權中"
+   },
+   "labelSyncDisabled": {
+      "description": "Label for option to disable sync service.",
+      "message": "無"
+   },
+   "labelSyncPassword": {
+      "description": "Label for input to hold password.",
+      "message": "Password: "
+   },
+   "labelSyncRevoke": {
+      "description": "Label for button to revoke authorization for a service.",
+      "message": "取消授權"
+   },
+   "labelSyncScriptStatus": {
+      "description": "Label for option to sync script status.",
+      "message": "同步腳本狀態"
+   },
+   "labelSyncServerUrl": {
+      "description": "Label for input to hold server URL.",
+      "message": "Server URL: "
+   },
+   "labelSyncService": {
+      "description": "Label for sync service select.",
+      "message": "同步到"
+   },
+   "labelSyncUsername": {
+      "description": "Label for input to hold username.",
+      "message": "Username: "
+   },
+   "labelUpdateURL": {
+      "description": "Label of script @updateURL in custom meta data.",
+      "message": "檢查更新網址："
+   },
+   "lastSync": {
+      "description": "Label for last sync timestamp.",
+      "message": "最近同步時間為 $1"
+   },
+   "learnBlacklist": {
+      "description": "Refers to a link to introduce blacklist patterns.",
+      "message": "了解更多黑名單規則。"
+   },
+   "learnInjectionMode": {
+      "description": "Refers to a link to introduce injection modes.",
+      "message": "Learn more about injection modes."
+   },
+   "menuDashboard": {
+      "description": "Label for menu item to open dashboard.",
+      "message": "打開控制台"
+   },
+   "menuFindScripts": {
+      "description": "Menu item to find scripts for a site.",
+      "message": "為此站點查詢腳本"
+   },
+   "menuInjectionFailed": {
+      "description": "Injection error.",
+      "message": "Could not inject some scripts."
+   },
+   "menuInjectionFailedFix": {
+      "description": "Injection error fix, shown in case the default mode is \"page\".",
+      "message": "Retry in \"auto\" mode"
+   },
+   "menuMatchedFrameScripts": {
+      "description": "Label for menu listing matching scripts in sub-frames.",
+      "message": "Sub-frames only scripts"
+   },
+   "menuMatchedScripts": {
+      "description": "Label for menu listing matched scripts.",
+      "message": "匹配的腳本"
+   },
+   "menuNewScript": {
+      "description": "Menu item to create a new script.",
+      "message": "Create a new script"
+   },
+   "menuScriptDisabled": {
+      "description": "Menu item showing the status of Violentmonkey, when disabled.",
+      "message": "腳本已停用"
+   },
+   "menuScriptEnabled": {
+      "description": "Menu item showing the status of Violentmonkey, when enabled.",
+      "message": "腳本已啟用"
+   },
+   "msgCheckingForUpdate": {
+      "description": "Message shown when a script is being checked for updates by version numbers.",
+      "message": "正在檢查更新…"
+   },
+   "msgErrorFetchingResource": {
+      "description": "Message shown when Violentmonkey fails fetching a resource/require/icon of the script.",
+      "message": "Error fetching resource!"
+   },
+   "msgErrorFetchingScript": {
+      "description": "Message shown when Violentmonkey fails fetching a new version of the script.",
+      "message": "獲取腳本發生錯誤！"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "description": "Message shown when Violentmonkey fails fetching version data of the script.",
+      "message": "獲取更新資訊失敗。"
+   },
+   "msgErrorLoadingData": {
+      "description": "Message shown on confirm page when the script to be installed cannot be loaded.",
+      "message": "載入腳本數據發生錯誤。"
+   },
+   "msgErrorLoadingDependency": {
+      "description": "Message shown when not all requirements are loaded successfully.",
+      "message": "載入腳本依賴發生錯誤。"
+   },
+   "msgImported": {
+      "description": "Message shown after import. There is an argument referring to the count of scripts imported.",
+      "message": "已匯入$1個腳本。"
+   },
+   "msgIncognitoChanges": {
+      "description": "Message shown in popup and installation tab when opened in an incognito window.",
+      "message": "Changes you make in the incognito mode also apply to your main profile."
+   },
+   "msgInstalled": {
+      "description": "Message shown when a script is installed.",
+      "message": "腳本已安裝。"
+   },
+   "msgInvalidScript": {
+      "description": "Message shown when script is invalid.",
+      "message": "腳本不合法！"
+   },
+   "msgLoadedData": {
+      "description": "Message shown in the confirm page when a javascript file to be installed is loaded.",
+      "message": "腳本數據已載入。"
+   },
+   "msgLoadingData": {
+      "description": "Message shown on confirm page when the script to be installed is loading.",
+      "message": "正在載入腳本數據…"
+   },
+   "msgLoadingDependency": {
+      "description": "Message shown on confirm page when the requirements are being downloaded.",
+      "message": "正在載入腳本依賴…（$1/$2）"
+   },
+   "msgNamespaceConflict": {
+      "description": "Message shown when namespace of the new script conflicts with an existent one.",
+      "message": "腳本命名空間衝突，請修改@name和@namespace！"
+   },
+   "msgNewVersion": {
+      "description": "Message shown when a new version of script is found by @updateURL, but no @downloadURL is provided.",
+      "message": "發現新版本。"
+   },
+   "msgNoUpdate": {
+      "description": "Message shown when there is no new version of a script.",
+      "message": "未發現新版本。"
+   },
+   "msgSavedBlacklist": {
+      "description": "Message shown when blacklist are saved.",
+      "message": "黑名單已更新！"
+   },
+   "msgSavedCustomCSS": {
+      "description": "Message shown when custom CSS is saved.",
+      "message": "自訂樣式已更新！"
+   },
+   "msgSavedEditorOptions": {
+      "description": "Message shown when editor options are saved.",
+      "message": "Editor options are updated."
+   },
+   "msgSavedScriptTemplate": {
+      "description": "Message shown when custom script template is saved.",
+      "message": "Custom script template is updated."
+   },
+   "msgScriptUpdated": {
+      "description": "Notification message for script updates.",
+      "message": "腳本【$1】已更新！"
+   },
+   "msgSyncError": {
+      "description": "Message shown when sync failed.",
+      "message": "同步出錯！"
+   },
+   "msgSyncInit": {
+      "description": "Message shown when sync service is initializing.",
+      "message": "正在初始化…"
+   },
+   "msgSyncInitError": {
+      "description": "Message shown when sync fails in initialization.",
+      "message": "初始化失敗！"
+   },
+   "msgSyncReady": {
+      "description": "Message shown when sync will start soon.",
+      "message": "即將開始同步…"
+   },
+   "msgSyncing": {
+      "description": "Message shown when sync is in progress.",
+      "message": "正在同步…"
+   },
+   "msgUpdated": {
+      "description": "Message shown when a script is updated/reinstalled.",
+      "message": "腳本已更新。"
+   },
+   "msgUpdating": {
+      "description": "Message shown when a new version of script is being fetched.",
+      "message": "正在更新…"
+   },
+   "noValues": {
+      "description": "Label shown when there is no value for current script.",
+      "message": "No value is stored"
+   },
+   "optionEditorWindow": {
+      "description": "Label for the option in settings",
+      "message": "Open editor from popup in a new window"
+   },
+   "optionEditorWindowHint": {
+      "description": "Tooltip for optionEditorWindow in case the browser doesn't support onBoundsChanged",
+      "message": "Editor window position will be remembered only on resizing or saving"
+   },
+   "optionEditorWindowSimple": {
+      "description": "Label for the editor window type",
+      "message": "Hide omnibox"
+   },
+   "optionPopupEnabledFirst": {
+      "description": "Option to show enabled scripts first in popup.",
+      "message": "Enabled first"
+   },
+   "optionPopupHideDisabled": {
+      "description": "Option to hide disabled scripts in popup.",
+      "message": "Hide disabled"
+   },
+   "optionShowEnabledFirst": {
+      "description": "Option to show enabled scripts first in alphabetical order.",
+      "message": "Show enabled scripts first"
+   },
+   "searchCaseSensitive": {
+      "description": "Option to perform a case-sensitive search",
+      "message": "Case sensitive"
+   },
+   "searchUseRegex": {
+      "description": "Option to perform a regular expression search",
+      "message": "Use Regex"
+   },
+   "sideMenuAbout": {
+      "description": "Side menu: About",
+      "message": "關於"
+   },
+   "sideMenuInstalled": {
+      "description": "Side menu: Installed scripts",
+      "message": "已安裝的腳本"
+   },
+   "sideMenuSettings": {
+      "description": "Side menu: Settings",
+      "message": "設定"
+   },
+   "titleScriptUpdated": {
+      "description": "Notification title for script updates.",
+      "message": "更新"
+   },
+   "titleSearchHint": {
+      "description": "Hover title for search icon in dashboard.",
+      "message": "* \u003CEnter> key adds the text to autocomplete history\n* RegExp syntax is supported: /re/ and /re/flags"
+   },
+   "valueLabelKey": {
+      "description": "Label for key of a script value.",
+      "message": "Key (string)"
+   },
+   "valueLabelValue": {
+      "description": "Label for value of a script value.",
+      "message": "Value (serialized as JSON)"
+   },
+   "valueLabelValueAll": {
+      "description": "Label for input of entire script value storage.",
+      "message": "All values (serialized as JSON)"
+   },
+   "visitWebsite": {
+      "description": "Label for link to open Violentmonkey website.",
+      "message": "Visit Website"
+   }
+}

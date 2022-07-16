@@ -1,0 +1,297 @@
+--------[ 概览 ]----------------------------------------------------------------------------------
+
+  电脑型号            HP Pavilion Laptop 15-ck0xx 笔记本电脑
+  操作系统            Windows 10 64位 ( DirectX 12 )
+  核心代号	          Kaby Lake Refresh
+  处理器              英特尔 Core i5-8250U @ 1.60GHz 四核
+  主板                惠普 841C ( 7th/8th Generation Intel Processor Family I/O - 9D4E 笔记本芯片组 )
+  主显卡              Nvidia GeForce MX150 ( 2 GB / 惠普 )
+  内存                32 GB ( 金士顿 DDR4 2400MHz )
+  主硬盘              英特尔 SSDSCKKF256H6 SATA 256GB ( 256 GB / 固态硬盘 )
+  显示器              京东方 BOE0752 ( 15.5 英寸  )
+  声卡                瑞昱  @ 英特尔 High Definition Audio 控制器    alcid=13
+  网卡                英特尔 Dual Band Wireless-AC 3168
+
+--------[ 主板 ]----------------------------------------------------------------------------------
+
+  主板型号            惠普 841C
+  芯片组              7th/8th Generation Intel Processor Family I/O - 9D4E 笔记本芯片组
+  序列号              PGXAE018JA20I2
+  主板版本            64.14
+  BIOS版本            Insyde F.11  /  BIOS程序发布日期: 05/10/2019
+  BIOS的大小          6144 KB
+
+
+--------[ 处理器 ]--------------------------------------------------------------------------------
+
+  处理器              英特尔 Core i5-8250U @ 1.60GHz 四核
+  速度                3.00 GHz (100 MHz x 30.0)
+  处理器数量          核心数: 4 / 线程数: 8
+  插槽/插座           U3E1
+  一级数据缓存        4 x 32 KB, 8-Way, 64 byte lines
+  一级代码缓存        4 x 32 KB, 8-Way, 64 byte lines
+  二级缓存            4 x 256 KB, 4-Way, 64 byte lines
+  三级缓存            6 MB, 12-Way, 64 byte lines
+  特征                MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, HTT, EM64T, EIST, Turbo Boost
+
+--------[ 硬盘 ]----------------------------------------------------------------------------------
+
+  产品                希捷 ST2000LX001-1RG174
+  大小                2 TB
+  转速                5400 转/分
+  缓存                128 MB
+  硬盘已使用          共 3486 次，累计 3291 小时
+  固件                SDM1
+  接口                SATA III
+  数据传输率          600.00 MB/秒
+  特征                S.M.A.R.T,  APM,  48-bit LBA,  NCQ
+
+  产品                英特尔  SSDSCKKF256H6 SATA 256GB (固态硬盘)
+  大小                256 GB
+  硬盘已使用          共 3661 次，累计 445 小时
+  固件                LBFD11N
+  接口                SATA III
+  特征                S.M.A.R.T,  APM,  48-bit LBA,  NCQ
+
+  产品                Generic- SD/MMC/MS PRO USB Device
+  大小                128 GB
+  固件                1.00
+  特征                S.M.A.R.T
+
+--------[ 内存 ]----------------------------------------------------------------------------------
+
+  Bottom-Slot 1(left)  金士顿 DDR4 2400MHz 16GB
+  制造日期            2018 年 31 周
+  型号                7F98 9905630-051.A00G
+  序列号              69378700
+  厂商                Kingston
+  模块位宽:           64 Bits
+  模块电压:           SSTL 1.2V
+
+  Bottom-Slot 2(right)  金士顿 DDR4 2400MHz 16GB
+  制造日期            2018 年 30 周
+  型号                7F98 9905703-006.A00G
+  序列号              023CF47D
+  厂商                Kingston
+  模块位宽:           64 Bits
+  模块电压:           SSTL 1.2V
+
+--------[ 显卡 ]----------------------------------------------------------------------------------
+
+  显卡                英特尔 UHD Graphics 620
+  显存                128 MB
+  制造商              惠普
+  制造商              Intel
+  驱动版本            27.20.100.8681
+  驱动日期            20200905
+
+  主显卡              Nvidia GeForce MX150
+  显存                2 GB
+  制造商              惠普
+  制造商              Nvidia
+  驱动版本            27.21.14.5241
+  驱动日期            20200923
+
+--------[ 显示器 ]--------------------------------------------------------------------------------
+
+  产品                京东方 BOE0752
+  厂商                京东方
+  固件程序日期        2017 年 1 周 (非显示器制造日期)
+  屏幕尺寸            15.5 英寸 (344 毫米 x 194 毫米)
+  显示比例            宽屏 16 : 9
+  分辨率              1366 x 768 32 位真彩色
+  Gamma               2.20
+  最大分辨率          1366 x 768
+
+--------[ 其他设备 ]------------------------------------------------------------------------------
+
+
+  无线网卡            英特尔 Dual Band Wireless-AC 3168
+
+  网卡                瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller
+  制造商              惠普
+
+  声卡                瑞昱  @ 英特尔 High Definition Audio 控制器
+Realtek	ALC295	layout 1, 3, 13, 14, 15, 21, 28, 77
+  键盘                HID 标准键盘
+  键盘                PS/2 标准键盘
+  鼠标                HID-compliant 鼠标
+  鼠标                Synaptics SMBus ClickPad
+
+  摄像头              瑞昱 HP Wide Vision HD Camera
+
+--------[ PCI设备 ]-------------------------------------------------------------------------------
+
+  设备                Xeon E3 - 1200 v6/7th Gen Intel Core Host Bridge/DRAM Registers - 5914
+  设备ID              5914
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                UHD Graphics 620
+  设备ID              5917
+  制造商              Intel
+  制造商ID            8086
+  类别                Display / VGA
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                未知(1903h)
+  设备ID              1903
+  制造商              Intel
+  制造商ID            8086
+  类别                Data Aquisition & Signal Processing / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                未知(9D2Fh)
+  设备ID              9D2F
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / USB (UHCI)
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                Mobile 6th/7th Generation Intel Processor Family I/O Thermal subsystem - 9D31
+  设备ID              9D31
+  制造商              Intel
+  制造商ID            8086
+  类别                Data Aquisition & Signal Processing / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                Management Engine Interface
+  设备ID              9D3A
+  制造商              Intel
+  制造商ID            8086
+  类别                Simple Communication / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                未知(9D03h)
+  设备ID              9D03
+  制造商              Intel
+  制造商ID            8086
+  类别                Storage / Serial ATA (AHCI 1.0)
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                Mobile 6th/7th Generation Intel Processor Family I/O PCI Express Root Port #1 - 9D10
+  设备ID              9D10
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                Mobile 6th/7th Generation Intel Processor Family I/O PCI Express Root Port #5 - 9D14
+  设备ID              9D14
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                Mobile 6th/7th Generation Intel Processor Family I/O PCI Express Root Port #6 - 9D15
+  设备ID              9D15
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                Mobile 7th/8th Generation Intel Processor Family I/O LPC Controller  - 9D4E
+  设备ID              9D4E
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to ISA
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                Mobile 6th/7th Generation Intel Processor Family I/O PMC - 9D21
+  设备ID              9D21
+  制造商              Intel
+  制造商ID            8086
+  类别                Memory / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                High Definition Audio 控制器
+  设备ID              9D71
+  制造商              Intel
+  制造商ID            8086
+  类别                Multimedia / Hi-definition Audio
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                Mobile 6th/7th Generation Intel Processor Family I/O SMBUS - 9D23
+  设备ID              9D23
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / SMBus Controller
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                GeForce MX150
+  设备ID              1D10
+  制造商              Nvidia
+  制造商ID            10DE
+  类别                Display / 3D
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+  设备                Dual Band Wireless-AC 3168
+  设备ID              24FB
+  制造商              Intel
+  制造商ID            8086
+  类别                Network / Other
+  子系统制造商        Intel
+  子系统ID            21108086
+
+  设备                RTL8168/8111/8112 Gigabit Ethernet Controller
+  设备ID              8168
+  制造商              Realtek
+  制造商ID            10EC
+  类别                Network / Ethernet
+  子系统制造商        Hewlett-Packard
+  子系统ID            841C103C
+
+--------[ USB设备 ]-------------------------------------------------------------------------------
+
+  描述                Realtek HP Wide Vision HD Camera
+  制造商ID            0BDA
+  产品ID              58EB
+  类别                239 / 2 / 1
+  设备                 
+  版本                USB 2.0
+
+  制造商ID            0BDA
+  产品ID              0177
+  类别                0 / 0 / 0
+  设备                Generic USB2.0-CRW
+  Serial              20121112761000000
+
+  制造商ID            8087
+  产品ID              0AA7
+  类别                224 / 1 / 1
+  设备                 
+  版本                USB 2.0
+
+  制造商ID            18F8
+  产品ID              0F97
+  类别                0 / 0 / 0
+  设备                ? USB OPTICAL MOUSE
+  Serial              ?
+  版本                USB 1.1
+
+  制造商ID            0BDA
+  产品ID              8152
+  类别                0 / 0 / 0
+  设备                 
+
+--------[ 传感器 ]--------------------------------------------------------------------------------
+
+  CPU温度             47℃
+  CPU核心             47℃
+  CPU封装             47℃
+  硬盘温度            39℃
+

@@ -1,0 +1,5 @@
+2021/01/10-15:40:36.656 1d14 Reusing MANIFEST D:\OpenCore\0.安装环境\ChromeGo\chrome-user-data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/10-15:41:53.093 434 Level-0 table #5: started
+2021/01/10-15:41:53.100 434 Level-0 table #5: 5284 bytes OK
+2021/01/10-15:41:53.106 434 Delete type=0 #3
+2021/01/10-15:41:53.106 434 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

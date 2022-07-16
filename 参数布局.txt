@@ -1,0 +1,14 @@
+声卡
+alc 295 layout 13
+PciRoot(0x0)/Pci(0x1F,0x3)
+AAPL,slot-name Internal@0,31,3
+device-id 70A10000
+device_type Audio device
+hda-gfx onboard-1
+layout-id 0D000000 
+model Sunrise Point-LP HD Audio
+
+显卡
+PciRoot(0x0)/Pci(0x2,0x0)
+AAPL,ig-platform-id 0000C087 
+device-id 16590000

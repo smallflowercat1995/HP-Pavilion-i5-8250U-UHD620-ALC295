@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <meta name="referrer" content="never">
+  <link rel="dns-prefetch" href="https://cdn.staticfile.org/">
+  <link rel="dns-prefetch" href="https://jingtai1.cn-sh2.ufileos.com/">
+  <title>微信和TIM能不能不隐藏起来？怎么设置-黑码网_网站技术_网络资源教程</title>
+  <meta name="keywords" content="deepin,科技新闻,IT资讯,黑码网,黑马" />
+  <meta name="description" content="就是直接在任务栏显示，不要放在抽屉里面" />
+  <meta itemprop="name" content="黑码网_网站技术_网络资源教程"/>
+  <meta property="og:title" content="微信和TIM能不能不隐藏起来？怎么设置" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="就是直接在任务栏显示，不要放在抽屉里面 黑码网是一家乐享资源记忆点滴的网站,主要分享程序源码,站长工具,网络技术,各类资源,各类教程,致力创造一个高质量分享平台." />  
+  <meta property="og:url" content="https://www.heimacode.com/article/8039.html" />  
+  <link rel='canonical' href='https://www.heimacode.com/article/8039.html'>
+  <link rel="stylesheet" media="screen" href="https://jingtai1.cn-sh2.ufileos.com/app.css" />
+<link rel="stylesheet" href="/static/css/apps.css">
+<link rel="stylesheet" href="/static/css/atom-one-dark.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/animate.css/4.1.1/animate.css">
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/axios/0.20.0/axios.min.js"></script>
+</head>
+<body class="page-home">
+  <div class="header navbar navbar-expand flex-md-row bd-navbar">
+  <div class="container d-sm-flex">
+    <div class="navbar-header d-none d-md-flex" id="navbar-header" data-turbolinks-permanent>
+      <a href="/" class="navbar-brand"
+        style="background: url(//jingtai1.cn-sh2.ufileos.com/code.png) no-repeat;background-position: center left;background-size: 20px;padding-left: 24px;">
+        <b>Mac</b> 黑码网</a>
+    </div>
+    <div class="navbar-nav-scroll">
+      <style>
+        @media screen and (min-width: 750px) {
+          .nav_hidden {
+            display: none;
+          }
+        }
+      </style>
+      <ul id="main-nav-menu" class="navbar-nav d-flex">
+        <li class="nav-item nav_hidden"><a class="nav-link" style="background: url(//jingtai1.cn-sh2.ufileos.com/code.png) no-repeat;background-position: center left;background-size: 20px;padding-left: 24px;" href="https://www.heimacode.com">黑码网</a></li>
+                <li class="nav-item">
+          <a href="/catalog/macos/" id="macos" class="nav-link" title="黑苹果">黑苹果</a>
+        </li>
+                <li class="nav-item">
+          <a href="/catalog/deepin/" id="deepin" class="nav-link" title="deepin">deepin</a>
+        </li>
+                <li class="nav-item">
+          <a href="/catalog/weixin/" id="weixin" class="nav-link" title="微信">微信</a>
+        </li>
+                <li class="nav-item">
+          <a href="/catalog/douyin/" id="douyin" class="nav-link" title="抖音">抖音</a>
+        </li>
+                <li class="nav-item">
+          <a href="/catalog/ziyuan/" id="ziyuan" class="nav-link" title="资源专区">资源专区</a>
+        </li>
+                <li class="nav-item">
+          <a href="/catalog/jishu/" id="jishu" class="nav-link" title="技术教程">技术教程</a>
+        </li>
+                <li class="nav-item">
+          <a href="/catalog/biaoqing/" id="biaoqing" class="nav-link" title="表情包">表情包</a>
+        </li>
+              </ul>
+    </div>
+  </div>
+</div>
+  <div id="main" class="main-container container">
+    <div class="row">
+        <div class="col-md-9 animate__animated animate__fadeIn">
+            <div class="card">
+                <div class="card-body">
+                    <span><a href="/"><i class="fa fa-home" aria-hidden="true"></i> 首页</a> / <a href="/catalog/deepin" id="active">deepin</a> / <a>正文</a></span>
+                </div>
+            </div>     
+            <div class="topic-detail card">
+                <div class="card-header media clearfix">
+                    <div class="media-body">
+                        <h1 class="media-heading"><a href="https://www.heimacode.com/article/8039.html"><span class="title">微信和TIM能不能不隐藏起来？怎么设置</span></a></h1>
+                        <style>
+                            .topic-detail .info p{margin-bottom: 5px;}
+                        </style>
+                        <div class="info">
+                            <p>
+                                <span>栏目&nbsp;</span><a href="/catalog/deepin">deepin</a>
+                                <span>•</span>
+                                <span>发布时间&nbsp;</span><abbr class="timeago" title="2020-09-16">2020-09-16</abbr>
+                                <span>•</span>
+                                <span>人气&nbsp;</span><span id="view"><i class="fa fa-spinner fa-spin fa-lg fa-fw"></i></span>
+                            </p>
+                            <p>来源: <a rel="nofollow">https://bbs.deepin.org/forum.php?mod=viewthread&amp;tid=167056&amp;extra=page%3D1</a></p>
+                            <p>TAG：无</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body markdown markdown-toc">
+                      <blockquote>简介：就是直接在任务栏显示，不要放在抽屉里面...</blockquote>
+                      <div id="content">
+                          <ignore_js_op>
+
+<img src="data/attachment/forum/201808/13/105211fj16tr40rwjoaht4.png" alt="微信图片_20180813105103.png" title="微信图片_20180813105103.png" />
+
+</ignore_js_op>
+就是直接在任务栏显示，不要放在抽屉里面<br />                      </div>
+                      <br />
+                      <div class="alert alert-info" style="margin-top: 15px;">资源来源网络，若未解决请<a href="https://bbs.deepin.org/forum.php?mod=viewthread&amp;tid=167056&amp;extra=page%3D1" rel="nofollow" target="_blank">查看原文</a></div>
+                      <blockquote style="margin-top: 8px;"><p> 本站资源全部都是收集于网络如有侵权请发邮件至：admin@heimacode.com 我们会尽快处理侵权内容 。</p></blockquote>
+                </div></div>
+                <div class="card">
+                    <div class="card-body">
+                      <span style="margin-bottom: 5px;"><i class="fa fa-angle-up" aria-hidden="true"></i> 上一篇： <a href="/article/8040.html">桌面卡死</a></span><br />
+                      <span><i class="fa fa-angle-down" aria-hidden="true"></i> 下一篇： <a href="/article/8038.html">请教大神如何打开这个界面效果？</a></span>
+                    </div>
+                </div>
+                <style type="text/css" media="all">
+                    .article-list-text{
+                    	overflow:auto
+                    }
+                    .article-list-text li{
+                    	line-height:28px;
+                    	overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        width: 100%;
+                        float: left;
+                    }
+                    .article-list-text li > .before-title{
+                    	color:#009688;
+                    	font-weight:bold;
+                    }
+                    .article-list-text li > a{
+                        font-size: 14px;
+                    	color: #2F4056;
+                        vertical-align: middle;
+                    }
+                    .article-list-dotted > li{
+                    	list-style: initial;
+                        color: #009688;
+                    }
+                    .article-list-text-col-2 li{
+                    	width:50%;
+                    }
+                </style>
+                <div class="card">
+        <div class="card-header">推荐文章</div>
+        <div>
+            <div class="" style="margin-top:15px;">
+                <ul class="article-list-text article-list-text-col-2 article-list-dotted">
+                                        <li><a href="https://www.heimacode.com/article/73331.html" title="【OpenCore】全新引导方式-开发进度-安装方法-经验交流-opencore">【OpenCore】全新引导方式-开发进度-安装方法-经验交流-opencore</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73504.html" title="深度UOS的开机画面丑不丑，投票了">深度UOS的开机画面丑不丑，投票了</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73687.html" title="腾讯云4核8G5M服务器三年600元，送MySQL数据库2核4G一年">腾讯云4核8G5M服务器三年600元，送MySQL数据库2核4G一年</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73704.html" title="使用 AdGuard Home 屏蔽电脑手机投影电视广告，并防止跟踪">使用 AdGuard Home 屏蔽电脑手机投影电视广告，并防止跟踪</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73705.html" title="Cubepaas送无门槛300元余额，可开通G口带宽Nat服务器">Cubepaas送无门槛300元余额，可开通G口带宽Nat服务器</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73706.html" title="无忧云「香港&middot;安畅4核4G5M」服务器，能建站还可以去广告">无忧云「香港&middot;安畅4核4G5M」服务器，能建站还可以去广告</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73707.html" title="汇速云「1核2G5M」香港服务器体验评测，1080P无压力">汇速云「1核2G5M」香港服务器体验评测，1080P无压力</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73708.html" title="今天再看迪士尼《花木兰》：经典重拍是怀旧还是创新？22P下载">今天再看迪士尼《花木兰》：经典重拍是怀旧还是创新？22P下载</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73709.html" title="微信小程序制作高质量证件照，免费无水印保存！轻松省几十元">微信小程序制作高质量证件照，免费无水印保存！轻松省几十元</a></li>
+                                        <li><a href="https://www.heimacode.com/article/73710.html" title="Centos如何查看系统版本，如何将系统升级到最新版本">Centos如何查看系统版本，如何将系统升级到最新版本</a></li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+      </div>
+    <script type="text/javascript" charset="utf-8">
+        (function(){
+            $("#content img").each(function() {    
+                $(this).attr("class","img-fluid");
+            });
+            axios.get('/art/view?id=8039')
+                .then(function (result) {
+                $("#view").html(result.data);
+            });
+        })();
+    </script>
+      <div class="sidebar col-md-3 animate__animated animate__fadeIn">
+    <form class="form-inline navbar-brand" onsubmit="return goso();">
+        <input class="form-control" type="text" id="so" style="width:225px;height:37px;" placeholder="请输入关键词">
+        <button class="btn btn-success" type="button" onclick="goso();">搜索</button>
+    </form>     
+    <div class="card">
+        <ul class="list-group">
+              <li class="list-group-item"><i class="fa fa-file-o"></i> 文章总数：<font color="#FF5D4A">80435</font> 篇</li>
+              <li class="list-group-item"><i class="fa fa-chain" aria-hidden="true"></i> 百度收录：<font color="#FF5D4A"><span id="bd"><i class="fa fa-spinner fa-spin fa-lg fa-fw"></i></span></font> 条</li>
+              <li class="list-group-item"><i class="fa fa-chain" aria-hidden="true"></i> 360收录：<font color="#FF5D4A"><span id="360"><i class="fa fa-spinner fa-spin fa-lg fa-fw"></i></span></font> 条</li>
+        </ul>
+    </div>
+    <div class="card">
+        <div class="card-header">推荐文章</div>
+        <ul class="list-group">
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/82109.html">卡这了</a></li>
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/81916.html">新作 | 蔚崃林盘，四川 / 光环环境艺术设计有限公司</a></li>
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/82075.html">PS教程！如何修出梦幻色彩人像后期？</a></li>
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/82026.html">不止升级10nm Alder Lake或配至少一条PCIe 5.0通道</a></li>
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/82108.html">求助：WIN10，传统BIOS、MBR装哪个版本的黑苹果</a></li>
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/82009.html">用黑果小兵安**ig sur，前两次重启都正常，第三次就在这</a></li>
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/81982.html">商店无法使用</a></li>
+                        <li class="list-group-item" style="font-size:13px;"><a href="https://www.heimacode.com/article/82165.html">又一地汽车零部件检出新冠病毒！专家解读</a></li>
+                    </ul>
+   </div>         
+    <div class="card">
+        <div class="card-header">热门标签</div>
+        <div class="items">
+            		        <a href="https://www.heimacode.com/tag/835.html"> (1598)</a>
+		    		        <a href="https://www.heimacode.com/tag/522.html">路由器 (944)</a>
+		    		        <a href="https://www.heimacode.com/tag/155.html">设置 (857)</a>
+		    		        <a href="https://www.heimacode.com/tag/283.html">地址 (520)</a>
+		    		        <a href="https://www.heimacode.com/tag/25.html">连接 (410)</a>
+		    		        <a href="https://www.heimacode.com/tag/114.html">的人 (384)</a>
+		    		        <a href="https://www.heimacode.com/tag/141.html">密码 (326)</a>
+		    		        <a href="https://www.heimacode.com/tag/123.html">安装 (307)</a>
+		    		        <a href="https://www.heimacode.com/tag/531.html">上网 (306)</a>
+		    		        <a href="https://www.heimacode.com/tag/77.html">系统 (287)</a>
+		    		        <a href="https://www.heimacode.com/tag/557.html">网线 (283)</a>
+		    		        <a href="https://www.heimacode.com/tag/1272.html">教程 (282)</a>
+		    		        <a href="https://www.heimacode.com/tag/11.html">自己的 (276)</a>
+		    		        <a href="https://www.heimacode.com/tag/235.html">都是 (267)</a>
+		    		        <a href="https://www.heimacode.com/tag/159.html">电脑 (241)</a>
+		    		        <a href="https://www.heimacode.com/tag/73.html">文件 (240)</a>
+		    		        <a href="https://www.heimacode.com/tag/213.html">点击 (239)</a>
+		    		        <a href="https://www.heimacode.com/tag/249.html">视频 (193)</a>
+		    		        <a href="https://www.heimacode.com/tag/304.html">的是 (187)</a>
+		    		        <a href="https://www.heimacode.com/tag/200.html">资源 (178)</a>
+		    		        <a href="https://www.heimacode.com/tag/199.html">手机 (175)</a>
+		    		        <a href="https://www.heimacode.com/tag/208.html">软件 (173)</a>
+		    		        <a href="https://www.heimacode.com/tag/230.html">下载地址 (169)</a>
+		    		        <a href="https://www.heimacode.com/tag/523.html">登录 (166)</a>
+		    		        <a href="https://www.heimacode.com/tag/168.html">用户 (165)</a>
+		    		        <a href="https://www.heimacode.com/tag/55.html">配置 (164)</a>
+		    		        <a href="https://www.heimacode.com/tag/81.html">添加 (163)</a>
+		    		        <a href="https://www.heimacode.com/tag/690.html">大佬 (159)</a>
+		    		        <a href="https://www.heimacode.com/tag/309.html">苹果 (157)</a>
+		    		        <a href="https://www.heimacode.com/tag/4544.html">效果图 (156)</a>
+		    		</div>
+    </div>
+    <div id="listb"></div>
+</div>
+    </div>
+  </div>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+<script src="https://cdn.staticfile.org/layer/3.1.1/layer.min.js"></script>
+<script src="/static/js/app.js"></script>
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="widget">
+                    <h4 class="title">联系方式</h4>
+                    <div class="content recent-post">
+                        <div class="recent-single-post"><a href="http://wpa.qq.com/msgrd?v=3&uin=1919215151&site=qq&menu=yes" class="post-title"><i class="fa fa-qq" aria-hidden="true"></i> 1808661305</a></div>
+                        <div class="recent-single-post"><a href="mailto:admin@heimacode.com" class="post-title"><i class="fa fa-envelope-open" aria-hidden="true"></i> admin#heimacode.com</a></div>
+                        <div class="recent-single-post"><a href="https://jq.qq.com/?_wv=1027&k=0EaiYEGf" class="post-title"><i class="fa fa-chain" aria-hidden="true"></i> QQ群 229164943</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="widget">
+                    <h4 class="title">黑码博客介绍</h4>
+                    <div class="content tag-cloud friend-links">
+                        <p>黑码博客是一家乐享资源记忆点滴的博客,主要分享程序源码,站长工具,网络技术,各类资源,各类教程,致力创造一个高质量分享平台.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright" id="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <span>本站资源全部都是收集于网络如有侵权请发邮件至：admin@heimacode.com 我们会尽快处理侵权内容</span>
+        <br><a href="http://beian.miit.gov.cn" rel="nofollow" target="_blank">蜀ICP备20003631号</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="roll" class="hidden-xs">
+  <div title="回到顶部" id="roll_top"></div>
+  <div title="转到底部" id="roll_bottom"></div>
+</div>
+</body>
+</html>

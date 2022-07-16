@@ -1,0 +1,18 @@
+{
+   "author": "Matthias Ainsworth",
+   "browser_action": {
+      "default_icon": "images/bookmarkschecker.png",
+      "default_popup": "popup.html",
+      "default_title": "Bookmarks Checker"
+   },
+   "description": "With this extension you can batch check your bookmarks and delete the bookmarks that are no longer valid.",
+   "icons": {
+      "128": "images/bookmarkschecker.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqa3OtL/j6KQZAcctEkgE0sdDPHFJM8cjW/qc+5y/NdJY4801+y6tBdbT3aTfjBgqFxmqv6WSTaW1qtWwlTS7EyTjacM2TojPSC/1/ZX2fVKIjpfKbd5POwD1dxEsbXKD76B+gej9Bz3faCzEIi3LalkAaFe6WoS4GKqHLT1mn03mWU2v57ob1dyXFLrVJHeg5uvNz3j1CYg/PpZ+/Si3h920ioyws6C7l6eJGe2vc34EPROuvMOwQBN8Xzyr7vIDSdcwUFvdiHrP46qjsRP+hKfDEBu+SHSvRXPFHU3UkGdOjbawSDXXcJrCO07SLyLvI6gR2/Oa3YJGeoswdy6x7QIDAQAB",
+   "manifest_version": 2,
+   "name": "Bookmarks Checker",
+   "permissions": [ "https://*/", "http://*/", "bookmarks" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="../../src/lib/prevel.js"></script>
+    <script defer src="../../src/lib/jquery.js"></script>
+    <script defer src="../../src/lib/jqEase.js"></script>
+    <script defer src="../../src/kernel/kernel.js"></script>
+
+    <link href="../../res/styles/pages/common/pages_main.css" rel="stylesheet" type="text/css">
+    <link href="../../res/styles/pages/common/main.css" rel="stylesheet" type="text/css">
+    <link href="../../res/styles/pages/public/options.css" rel="stylesheet" type="text/css">
+    <link href="../../res/styles/pages/public/tour.css" rel="stylesheet" type="text/css">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body class="stop-scrolling">
+
+<div class="loading-screen">
+    <div class="mate-loading"></div>
+</div>
+
+<div class="importance-alert">
+    <div class="ia-contents">
+        <div class="ia-header need-html-locale" id="Tour_Important">It's super important!</div>
+        <div class="ia-subheader need-html-locale" id="Tour_ImportantSub">This page will show you how to use <b>Mate Translate</b></div>
+        <div class="ia-text need-html-locale" id="Tour_ImportantText">Take just 40 seconds to look through it</div>
+        <div class="ia-button need-html-locale" id="Tour_GotIt">OKAY</div>
+    </div>
+</div>
+
+<div id="main-wrap">
+    <div class="top-wrap">
+        <div class="top-top">
+            <div class="screen-name"></div>
+        </div>
+    </div>
+
+    <div class="first-col tour">
+        <div class="block wide-block normal-tour">
+            <div class="carousel">
+                <div class="blocks">
+                    <div class="c-block cb-1" data-num="1">
+                        <img data-id="langs" class="phrasebook-img" src="../../res/images/tour_langs.png">
+
+                    </div>
+                    <div class="c-block cb-2" data-num="2">
+                        <img data-id="select" class="select-img" src="../../res/images/tour_select.gif">
+                    </div>
+                    <div class="c-block cb-3" data-num="3">
+                        <img data-id="fullpage" class="fullpage-img" src="../../res/images/tour_fullpage.gif">
+                    </div>
+                    <div class="c-block cb-4 pdf-tab-related" data-num="4">
+                        <img data-id="phrasebook" class="select-img" src="../../res/images/tour_pdf.gif">
+                    </div>
+                    <div class="c-block cb-5" data-num="5">
+                        <img data-id="sync" class="synchr-img" src="../../res/images/tour_sync.png">
+                    </div>
+                    <div class="c-block cb-6 gdpr" data-num="6">
+                        <img data-id="pro" class="prov-img" src="../../res/images/tour_pro_safari.png">
+                    </div>
+                    <div class="c-block cb-6 regular-pro" data-num="6">
+                        <img data-id="pro" class="prov-img" src="../../res/images/tour_pro.png">
+                    </div>
+                    <div class="c-block cb-6 safari-pro" data-num="6">
+                        <img data-id="pro" class="prov-img" src="../../res/images/tour_pro_safari.png">
+                    </div>
+                </div>
+                <div class="carousel-control to-left"></div>
+                <div class="carousel-control to-right"></div>
+                <div class="progress-dots"></div>
+            </div>
+
+            <div class="meta">
+                <div class="c-block-meta cbm-1" data-num="1">
+                    <div class="headline need-html-locale" id="Tour_Langs">Supports 103 languages</div>
+                    <div class="desc need-html-locale" id="Tour_LangsDesc">Pick the language you want to translate to:
+                    </div>
+
+                    <div class="to-lang">
+                        <div class="ui_selector">
+                            <div class="select need-html-locale" id="Settings_DestLang">Destination language</div>
+                            <div class="options opt-2" data-serial="2">
+                                <div class="dd-search">
+                                    <input class="dd-input need-ph-locale" type="text"
+                                           data-dir="from"
+                                           id="Kernel_SearchPlaceholder">
+                                </div>
+                                <div class="visibles-scroll" id="selVisibleScroll-2">
+                                    <div class="entire-scroll" id="selEntireScroll-2">
+                                        <div class="inner-options-layout">
+                                            <ul class="list">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="sel-scrollbar" id="sel-scr-2">
+                                        <div class="sel-track" id="sel-tr-2">
+                                            <div class="sel-dragBar" id="sel-db-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="buttons-layout">
+                        <button class="mw-button wba continue high-cta need-html-locale" id="Login_Continue">continue
+                        </button>
+                    </div>
+                </div>
+                <div class="c-block-meta cbm-2" data-num="2">
+                    <div class="headline need-html-locale" id="Tour_Selected">Translate selected text</div>
+                    <div class="desc need-html-locale" id="Tour_SelectedDesc"> Select and click on the floating button
+                        or press Shift+T to translate on any web page.
+                    </div>
+
+                    <div class="buttons-layout">
+                        <button class="mw-button continue high-cta need-html-locale" id="Login_Continue">continue
+                        </button>
+                    </div>
+                </div>
+                <div class="c-block-meta cbm-3" data-num="3">
+                    <div class="headline need-html-locale" id="Tour_Pages">Translate websites</div>
+                    <div class="desc need-html-locale" id="Tour_PagesDesc">Translate entire web pages easily.<br>Just
+                        right-click & select "Translate this page" to do this.
+                    </div>
+
+                    <div class="buttons-layout">
+                        <button class="mw-button continue high-cta need-html-locale" id="Login_Continue">continue
+                        </button>
+                    </div>
+                </div>
+                <div class="c-block-meta cbm-4 pdf-tab-related" data-num="4">
+                    <div class="headline need-html-locale" id="Tour_PDF">Translate in PDFs</div>
+                    <div class="desc need-html-locale" id="Tour_PDFDesc">Select text in PDF files within Chrome,
+                        right-click and translate it.
+                    </div>
+
+                    <div class="buttons-layout">
+                        <div class="note need-html-locale" id="Tour_PDFNote">Floating button and Shift+T translations
+                            won't work in PDFs because of technical restrictions.
+                        </div>
+                        <button class="mw-button wba continue high-cta need-html-locale" id="Login_Continue">continue
+                        </button>
+                    </div>
+                </div>
+                <div class="c-block-meta cbm-5" data-num="5">
+                    <div class="headline need-html-locale" id="Tour_Sync">Synchronize data across all devices</div>
+                    <div class="desc need-html-locale" id="Tour_SyncDesc">Keep your translation history and Phrasebook
+                        synchronized between all devices where you're using Mate.
+                    </div>
+
+                    <div class="buttons-layout">
+                        <button class="mw-button sign-in need-html-locale" id="Tour_SyncSignIn">sign in to synchronize
+                        </button>
+                        <button class="mw-button wba continue high-cta need-html-locale" id="Login_Continue">continue
+                        </button>
+                    </div>
+                </div>
+                <div class="c-block-meta cbm-6 regular-pro" data-num="6">
+                    <div class="headline need-html-locale" id="Tour_Unlock">Unlock more features</div>
+                    <div class="desc need-html-locale" id="Tour_UnlockDesc">Such as speech translation in 40 languages,
+                        unlimited shortcuts, phrasebook, synchronization.
+                    </div>
+
+                    <div class="buttons-layout">
+                        <button class="mw-button high-cta pro-version-button need-html-locale"
+                                id="Window_Mw_UpgradeButton" data-storage-locale-placeholder="pro_inapp_price">get pro
+                            version for 9.99$
+                        </button>
+                        <button class="mw-button wba got-it need-html-locale" id="Tour_Start">start using mate</button>
+                    </div>
+                </div>
+                <div class="c-block-meta cbm-6 gdpr" data-num="6">
+                    <div class="headline need-html-locale" id="Tour_Ready">You're ready!</div>
+                    <div class="desc need-html-locale" id="Tour_Agree">Click on the button below to agree to our <b>Terms
+                        of Use</b> and <b>Privacy Policy</b>, and start translating with Mate.
+                    </div>
+
+                    <div class="buttons-layout">
+                        <button class="mw-button mw-2b privacy-button need-html-locale" id="Settings_PrivacyPolicy">our
+                            privacy policy
+                        </button>
+                        <button class="mw-button mw-2b tos-button last-of-type need-html-locale" data-pl="tw"
+                                id="Settings_ToS">our terms of use
+                        </button>
+                        <button class="mw-button wba got-it high-cta gdpr-consent need-html-locale" id="Tour_Start">
+                            start using mate
+                        </button>
+                    </div>
+                </div>
+                <div class="c-block-meta cbm-6 safari-pro" data-num="6">
+                    <div class="headline " id="Tour_UnlockSafari">You're all set now!</div>
+                    <div class="desc need-html-locale" id="Trial_UseAndPay" data-storage-locale-placeholder="pro_inapp_price">Use Mate for free for 7 days, then it's 9.99$ one-time.</div>
+
+                    <div class="buttons-layout">
+                        <button class="mw-button high-cta trial-start-button need-html-locale" id="Trial_Start">start my free trial</button>
+                        <button class="mw-button wba pro-version-button need-html-locale" id="Tour_SafariGet"
+                                data-storage-locale-placeholder="pro_inapp_price">get pro version for 9.99$
+                        </button>
+                        <button class="mw-button wba restore need-html-locale" id="Settings_Restore">restore</button>
+                        <div class="low-prio-button restore need-html-locale" id="Tour_MacUser">I was using Mate for Mac</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block wide-block trial-expired">
+            <div class="meta">
+                <div class="headline trial-expiration-headline">Trial expired</div>
+                <div class="desc need-html-locale" id="Trial_PurchaseDesc">Purchase Pro one-time to use Mate in Safari forever.</div>
+
+                <div class="features">
+                    <div class="feature" id="SafariWall_Feature1">Select words on any page & translate them</div>
+                    <div class="feature" id="SafariWall_Feature3">Save words to remember in your personal Phrasebook</div>
+                    <div class="feature" id="SafariWall_Feature4">Translate 103 languages</div>
+                    <div class="feature" id="SafariWall_Feature5">Learn correct pronunciation</div>
+                    <div class="feature" id="SafariWall_Feature6">Synchronize all your translations across all devices</div>
+                </div>
+
+                <div>
+                    <button class="mw-button high-cta pro-version-button need-html-locale" id="Tour_SafariGet"
+                            data-storage-locale-placeholder="pro_inapp_price">get pro version for 9.99$
+                    </button>
+                    <button class="mw-button wba restore need-html-locale" id="Settings_Restore">restore</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

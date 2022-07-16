@@ -1,0 +1,5 @@
+2021/01/10-15:44:36.459 2cf0 Reusing MANIFEST D:\OpenCore\0.安装环境\ChromeGo\chrome-user-data\Default\IndexedDB\chrome-extension_jinjaccalgkegednnccohejagnlnfdag_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/10-15:44:47.237 2f50 Level-0 table #5: started
+2021/01/10-15:44:47.300 2f50 Level-0 table #5: 421 bytes OK
+2021/01/10-15:44:47.308 2f50 Delete type=0 #3
+2021/01/10-15:44:47.308 2f50 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

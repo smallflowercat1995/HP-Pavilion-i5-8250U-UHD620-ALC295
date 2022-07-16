@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Extension Bar</title>
+</head>
+<body>
+<script>
+    window.addEventListener('message', (e) => {
+        const data = e.data || {}
+        switch (data.cmd) {
+    case 'RELOCATE': {
+            const { left, top, width, height } = data.args || {}
+            if (left !== undefined || top !== undefined) {
+                window.moveTo(left, top)
+            }
+            if (width !== undefined || height !== undefined) {
+                window.resizeTo(width, height)
+            }
+        }
+    }
+    })
+</script>
+</body>
+</html>
